@@ -1,8 +1,8 @@
 # code here!
 class School 
   
-  attr_accessor :roster
-  attr_reader :school
+  attr_accessor 
+  attr_reader :school, :roster 
   
   ROSTER = []
   
@@ -12,6 +12,7 @@ class School
   
   def roster=(roster)
     @roster = roster 
-    
+    ROSTER << roster 
+  end 
   
 end 
